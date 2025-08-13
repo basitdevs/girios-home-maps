@@ -10,7 +10,7 @@ export default function ImageMapPro() {
 
   useEffect(() => {
     let observer: MutationObserver | null = null;
-    let configData: any = null;
+    let configData:unknown = null;
 
     async function init() {
       try {
