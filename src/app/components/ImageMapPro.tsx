@@ -10,7 +10,7 @@ export default function ImageMapPro() {
 
   useEffect(() => {
     let observer: MutationObserver | null = null;
-    let configData:unknown = null;
+    let configData: Record<string, unknown> | null = null;
 
     async function init() {
       try {
@@ -36,7 +36,7 @@ export default function ImageMapPro() {
         const initializeMap = () => {
           startObserver();
           if (window.ImageMapPro) {
-            window.ImageMapPro.init("#image-map-pro", configData);
+            window.ImageMapPro.init("#image-map-pro", configData as Record<string, unknown>);
           }
         };
 
@@ -88,22 +88,22 @@ export default function ImageMapPro() {
   }, [pathname]);
 
   return (
-    <div className="relative w-full overflow-hidden h-full min-h-[353px] lg:min-h-[652px]">
+    <div className='relative w-full overflow-hidden h-full min-h-[353px] lg:min-h-[652px]'>
       {isLoading && (
-        <div className="absolute inset-0 z-10">
+        <div className='absolute inset-0 z-10'>
           <Image
-            src="/images/banner/banner.jpg"
-            alt="banner"
+            src='/images/banner/banner.jpg'
+            alt='banner'
             fill
-            className="object-cover"
+            className='object-cover'
             priority
           />
         </div>
       )}
 
       <div
-        id="image-map-pro"
-        className="w-full !h-full !min-h-[353px] lg:min-h-[652px] overflow-hidden"
+        id='image-map-pro'
+        className='w-full !h-full !min-h-[353px] lg:min-h-[652px] overflow-hidden'
       />
     </div>
   );
