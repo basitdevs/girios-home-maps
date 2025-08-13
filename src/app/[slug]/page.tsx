@@ -49,7 +49,7 @@ export default async function HomeDetailPage({ params }: { params: Params }) {
         <HouseBanner />
         <HouseBrandDetails />
         <FunkcionalumasIr />
-        <TobulasDerinysTarpGamtos />
+        <TobulasDerinysTarpGamtos ctaText='Susisiekti' ctaHomeIcon={false} ctaLink='#contact' />
         <GiriosNamaiForm />
       </div>
     </div>

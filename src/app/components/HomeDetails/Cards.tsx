@@ -95,17 +95,19 @@ const houseDetails = [
 const Cards = () => {
   return (
     <div className='md:px-[60px] px-[15px]'>
-      <div className='grid md:grid-cols-2 lg:grid-cols-4 py-14 xl:py-[81px] gap-4 xl:gap-[42px] ml-[6px]'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-4 py-14 xl:py-[81px] gap-4 xl:gap-[40px]'>
         {houseDetails.map((item) => (
           <div
             key={item.id}
-            className={`group bg-[#f6f6f6] rounded-md pt-[34px] pl-[27px] pr-[18px] pb-[25px] hover:bg-[linear-gradient(123deg,#F6F6F6_3.17%,#D7D7D7_223.59%)] transition-all duration-300`}>
+            className={`group bg-[#F6F6F6] rounded-md py-[40px] w-full px-[30px] pr-[25px] hover:bg-[linear-gradient(123deg,#F6F6F6_3.17%,#D7D7D7_223.59%)] transition-all duration-300`}>
             {/* Top Row */}
             <div className='flex justify-between mb-[2px]'>
               <div
                 className={`w-[43px] group-hover:bg-[#39ab65] group-hover:w-[103px] transition-all duration-500 ease-in-out bg-primary h-[3px] mt-1 ml-[2px]`}
               />
-              <span className='group-hover:text-primary text-[#2e7255] md:text-[#d2d2d2]'>{item.hoverIcon}</span>
+              <span className='group-hover:text-primary text-[#2e7255] md:text-[#d2d2d2]'>
+                {item.hoverIcon}
+              </span>
             </div>
 
             {/* Content */}
@@ -116,7 +118,7 @@ const Cards = () => {
               <h4 className='text-black text-[19px] leading-[1] mt-[11px] font-medium mb-[18px]'>
                 {item.title}
               </h4>
-              <p className='text-black text-[14px] font-medium leading-[20px] tracking-[0.42px]'>
+              <p className='text-black text-[14px] font-medium leading-[20px] tracking-[0.14px]'>
                 {item.description}
               </p>
             </div>

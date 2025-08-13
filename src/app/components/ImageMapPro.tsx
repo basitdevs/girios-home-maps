@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function ImageMapPro() {
   const [isLoading, setIsLoading] = useState(true);
+  const pathname = usePathname();
 
   useEffect(() => {
     let observer: MutationObserver | null = null;
@@ -67,7 +69,7 @@ export default function ImageMapPro() {
     return () => {
       observer?.disconnect();
     };
-  }, []);
+  }, [pathname]);
 
   return (
     <div className='relative w-full overflow-hidden h-full min-h-[353px] lg:min-h-[652px]'>

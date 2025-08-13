@@ -91,7 +91,7 @@ export default function GiriosNamaiForm() {
   };
 
   return (
-    <section className='mt-[34] md:mt-[80] '>
+    <section className='mt-[34] md:mt-[80] ' id="contact">
       <div className='max-w-[1352px] mx-auto '>
         <div className='flex flex-col md:flex-row items-center justify-center'>
           <div className='bg-[#141414] md:bg-[#232323] px-[15px] md:px-[45px] py-[50px] md:py-[40px] flex items-center justify-center w-full md:h-[621.845px] h-auto md:rounded-l-[7px]'>
@@ -174,7 +174,7 @@ export default function GiriosNamaiForm() {
               <button
                 type='submit'
                 disabled={result === "Siuntimas..."}
-                className='transition-all duration-300 ease-in-out hover:bg-[#1CBD7D] hover:text-white w-full md:w-[251.4px] h-[58px] text-black bg-white text-[17px] font-medium uppercase tracking-[1px] rounded-[5px] flex items-center justify-center gap-[15px] cursor-pointer'>
+                className='transition-all duration-300 ease-in-out hover:bg-[#39AB65] hover:text-white w-full md:w-[251.4px] h-[58px] text-black bg-white text-[17px] font-medium uppercase tracking-[1px] rounded-[5px] flex items-center justify-center gap-[15px] cursor-pointer'>
                 {result}
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

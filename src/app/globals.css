@@ -37,9 +37,14 @@
   --breakpoint-desktop: 90rem;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
-    @apply bg-quinary text-foreground font-sans font-normal font-urbanist;
+    @apply bg-quinary text-foreground font-normal font-urbanist;
   }
 }
 

@@ -9,9 +9,9 @@ const Footer = () => {
     <footer className='w-full bg-quinary section-padding'>
       <div className='wrapper md:pb-10 pt-[33px] md:pt-[70px]'>
         {/* Top Section */}
-        <div className='py-5 md:pt-[30px] md:pb-[20px] md:pl-[29.87px] md:pr-[48px] flex flex-col md:flex-row justify-center md:justify-between items-center md:border-y border-[#D8D8D8] w-full'>
+        <div className='py-5 md:py-[30px] md:pl-[29.87px] md:pr-[48px] flex flex-col md:flex-row justify-center md:justify-between items-center md:border-y border-[#D8D8D8] w-full'>
           {/* Logo and Title */}
-          <div className='md:flex hidden items-center gap-3'>
+          <Link href={"/"} className='md:flex hidden items-center gap-3'>
             <Image
               src='/logo.png'
               alt='Girios Namai Logo'
@@ -21,12 +21,12 @@ const Footer = () => {
               priority
             />
             <p className='text-[21px] text-black font-semibold'>Girios Namai</p>
-          </div>
+          </Link>
 
           {/* Phone Number */}
           <Link
             href='tel:+37061912200'
-            className='text-[33px] md:text-[38px] text-black hover:text-primary transition-all duration-300 ease-in-out font-medium md:tracking-[1.74px] tracking-[0.99px]'>
+            className='text-[33px] md:text-[38px] leading-[1] text-black hover:text-primary transition-all duration-300 ease-in-out font-medium md:tracking-[1.74px] tracking-[0.99px]'>
             +370 619 12 200
           </Link>
         </div>
