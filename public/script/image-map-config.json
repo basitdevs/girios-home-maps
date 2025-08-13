@@ -1,0 +1,1552 @@
+{
+    "id": "d16d5542-162d-4bd9-87f7-fc4642156647",
+    "objectConfig": {
+        "pageload_animation": "fade",
+        "glowing_objects": true,
+        "glowing_objects_color": "#2b0808",
+        "glow_opacity": 0.955223880597015
+    },
+    "artboards": [
+        {
+            "background_type": "image",
+            "image_url": "https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sC1aoSyLVLukds26jnobDyMXgE4l7cqH0KGOw",
+            "width": 1346,
+            "height": 652,
+            "children": [
+                {
+                    "id": "1c47ab8d-ed26-4622-8998-728c9e4775e2",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 47.206842476565676,
+                    "y": 15.22065908948745,
+                    "width": 29.31313540629737,
+                    "height": 20.49895762113018,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.7850977405432851,
+                        "stroke_opacity": 0.6891891891891891
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.527027027027027
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 5,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "right",
+                        "offset_x": -16,
+                        "offset_y": 3
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "B1 &amp; B2, Girių namai 2 etapas",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 18,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "a05bf55e-d80a-4493-84e2-dcdbc5d18ef2"
+                        }
+                    ],
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 0,
+                            "y": 46.6925813540548
+                        },
+                        {
+                            "x": 10.492088238174944,
+                            "y": 35.16640387717552
+                        },
+                        {
+                            "x": 23.843046130190732,
+                            "y": 24.420923425766496
+                        },
+                        {
+                            "x": 30.04684025515893,
+                            "y": 20.488340674030013
+                        },
+                        {
+                            "x": 36.505886513367244,
+                            "y": 27.153757939798385
+                        },
+                        {
+                            "x": 39.286614694823044,
+                            "y": 25.448887954572204
+                        },
+                        {
+                            "x": 39.88662503326729,
+                            "y": 17.5075542715446
+                        },
+                        {
+                            "x": 38.75280324746094,
+                            "y": 13.696661383281267
+                        },
+                        {
+                            "x": 50.52180840035234,
+                            "y": 5.239502064810256
+                        },
+                        {
+                            "x": 56.48971760835252,
+                            "y": 0
+                        },
+                        {
+                            "x": 68.46060605590706,
+                            "y": 11.891585760155827
+                        },
+                        {
+                            "x": 68.27622131198805,
+                            "y": 28.28304228857902
+                        },
+                        {
+                            "x": 71.41239551065513,
+                            "y": 27.920530556432045
+                        },
+                        {
+                            "x": 100,
+                            "y": 53.961416562535234
+                        },
+                        {
+                            "x": 92.2919679233314,
+                            "y": 63.123627406855135
+                        },
+                        {
+                            "x": 59.65465803370017,
+                            "y": 100
+                        },
+                        {
+                            "x": 41.612645445498394,
+                            "y": 83.19240884078283
+                        },
+                        {
+                            "x": 25.459624622037403,
+                            "y": 69.9493734842008
+                        },
+                        {
+                            "x": 20.169167701917733,
+                            "y": 70.03991285608689
+                        },
+                        {
+                            "x": 7.782824330423025,
+                            "y": 55.24166559710992
+                        }
+                    ]
+                },
+                {
+                    "id": "44165b76-2198-4f65-926f-8a8952941792",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 34.731323240224896,
+                    "y": 25.551163762839792,
+                    "width": 18.11937621762322,
+                    "height": 13.474299283334489,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff"
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.4594594594594595
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 5,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "left",
+                        "offset_x": 7,
+                        "offset_y": -5
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A6</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a6",
+                        "open_link_in_new_window": false
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 0.41384530099399824,
+                            "y": 22.521366966612554
+                        },
+                        {
+                            "x": 0,
+                            "y": 21.145760860055262
+                        },
+                        {
+                            "x": 24.955326506681946,
+                            "y": 2.742850735638028
+                        },
+                        {
+                            "x": 33.13392330465637,
+                            "y": 10.637871385792927
+                        },
+                        {
+                            "x": 50.558401857484945,
+                            "y": 6.954967342660234
+                        },
+                        {
+                            "x": 62.1309967401973,
+                            "y": 0
+                        },
+                        {
+                            "x": 100,
+                            "y": 38.83661016499296
+                        },
+                        {
+                            "x": 71.50773954787253,
+                            "y": 57.98665177276777
+                        },
+                        {
+                            "x": 49.79360159614036,
+                            "y": 80.62492722955085
+                        },
+                        {
+                            "x": 51.53587472871507,
+                            "y": 85.1003497308577
+                        },
+                        {
+                            "x": 40.27826799546685,
+                            "y": 100
+                        },
+                        {
+                            "x": 1.9409253793674843,
+                            "y": 55.45692863364666
+                        },
+                        {
+                            "x": 3.157283068859658,
+                            "y": 52.41201939206158
+                        },
+                        {
+                            "x": 3.2434586678197332,
+                            "y": 41.734395553865205
+                        },
+                        {
+                            "x": 3.226768560230623,
+                            "y": 29.934347975834662
+                        }
+                    ]
+                },
+                {
+                    "id": "046b5ee1-4aab-4bb0-9716-e925a80ad133",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 4.910364516804158,
+                    "y": 33.020833333333336,
+                    "width": 22.23298061237907,
+                    "height": 21.833911047910114,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff"
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.42567567567567566
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 4,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "left",
+                        "offset_x": 14,
+                        "offset_y": -5
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A7</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a7"
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 45.248130869539324,
+                            "y": 14.485352539264104
+                        },
+                        {
+                            "x": 75.50831345301395,
+                            "y": 0
+                        },
+                        {
+                            "x": 99.90687879367053,
+                            "y": 30.53354322108388
+                        },
+                        {
+                            "x": 100,
+                            "y": 36.34592849180359
+                        },
+                        {
+                            "x": 92.4167077668437,
+                            "y": 40.42417647152527
+                        },
+                        {
+                            "x": 87.77988381220592,
+                            "y": 42.67316167125411
+                        },
+                        {
+                            "x": 92.94201265807463,
+                            "y": 55.63690029423773
+                        },
+                        {
+                            "x": 71.4509451311829,
+                            "y": 67.4168922192719
+                        },
+                        {
+                            "x": 21.9789069873318,
+                            "y": 100
+                        },
+                        {
+                            "x": 0,
+                            "y": 62.5279937681176
+                        },
+                        {
+                            "x": 43.77549323543347,
+                            "y": 38.0954134666741
+                        },
+                        {
+                            "x": 49.46470999122447,
+                            "y": 33.63746898128886
+                        },
+                        {
+                            "x": 48.83784154957269,
+                            "y": 21.026832745508365
+                        },
+                        {
+                            "x": 50.63378493786427,
+                            "y": 21.55999583070559
+                        }
+                    ]
+                },
+                {
+                    "id": "df5b2d47-54f6-4f75-9522-6983ed8066eb",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 10.768820439379562,
+                    "y": 39.20535869523782,
+                    "width": 28.50268575313534,
+                    "height": 27.40269101835797,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#f4f0f0",
+                        "background_opacity": 0.3986486486486487
+                    },
+                    "mouseover_style": {
+                        "background_color": "#f4f0f0",
+                        "background_opacity": 0.42567567567567566
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 4,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "right",
+                        "offset_x": -5,
+                        "offset_y": -8
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A4</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a4",
+                        "open_link_in_new_window": false
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 0,
+                            "y": 63.92073463385349
+                        },
+                        {
+                            "x": 9.888164745747133,
+                            "y": 57.12762575970209
+                        },
+                        {
+                            "x": 27.87492056121187,
+                            "y": 46.13108342937341
+                        },
+                        {
+                            "x": 49.12815245256262,
+                            "y": 31.86523334410467
+                        },
+                        {
+                            "x": 52.67734298651471,
+                            "y": 28.30187991324302
+                        },
+                        {
+                            "x": 52.48098823868419,
+                            "y": 25.10495670587322
+                        },
+                        {
+                            "x": 52.195391721929205,
+                            "y": 18.28514769438629
+                        },
+                        {
+                            "x": 49.62898844842497,
+                            "y": 12.664205310011202
+                        },
+                        {
+                            "x": 59.882585457782525,
+                            "y": 6.276879082090099
+                        },
+                        {
+                            "x": 71.90702277586095,
+                            "y": 0
+                        },
+                        {
+                            "x": 95.68725456418893,
+                            "y": 26.103899875366444
+                        },
+                        {
+                            "x": 95.84253521917326,
+                            "y": 39.34484575651004
+                        },
+                        {
+                            "x": 100,
+                            "y": 44.40951248418052
+                        },
+                        {
+                            "x": 87.88734756730463,
+                            "y": 53.59268780188415
+                        },
+                        {
+                            "x": 61.29981637256095,
+                            "y": 73.459763521752
+                        },
+                        {
+                            "x": 23.6650031963103,
+                            "y": 100
+                        },
+                        {
+                            "x": 12.62877942753324,
+                            "y": 84.06193068065275
+                        }
+                    ]
+                },
+                {
+                    "id": "c5e7a57f-d50c-4194-b23f-3ce4784343e3",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 42.50090445350786,
+                    "y": 30.27861040821201,
+                    "width": 22.095987898331856,
+                    "height": 17.820217335315945,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.44594594594594594
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.42567567567567566
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 5,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "offset_x": -2,
+                        "offset_y": 7
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A5</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Sold<br>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "center"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        }
+                    ],
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 0,
+                            "y": 51.18528990223534
+                        },
+                        {
+                            "x": 10.592033733158235,
+                            "y": 37.7983191318275
+                        },
+                        {
+                            "x": 7.897485889140196,
+                            "y": 34.063556265075974
+                        },
+                        {
+                            "x": 24.176298802796282,
+                            "y": 19.046161207642964
+                        },
+                        {
+                            "x": 29.476604377668313,
+                            "y": 17.054204550661247
+                        },
+                        {
+                            "x": 53.58038592091234,
+                            "y": 0
+                        },
+                        {
+                            "x": 100,
+                            "y": 34.00944123340673
+                        },
+                        {
+                            "x": 73.16024086193434,
+                            "y": 64.0452153652376
+                        },
+                        {
+                            "x": 44.408978917003694,
+                            "y": 98.8320635306435
+                        },
+                        {
+                            "x": 43.85998721943207,
+                            "y": 100
+                        },
+                        {
+                            "x": 16.2652674776988,
+                            "y": 69.98510775347886
+                        }
+                    ]
+                },
+                {
+                    "id": "71962ec1-4b18-46e5-b87f-16d912f6f97b",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 54.26471118970382,
+                    "y": 36.869018291165865,
+                    "width": 26.89177159182114,
+                    "height": 24.8673533917867,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff"
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.42567567567567566
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 4,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "right",
+                        "offset_x": -14,
+                        "offset_y": -1
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A3</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a3",
+                        "open_link_in_new_window": false
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 5.4147551558780025,
+                            "y": 33.42473524991515
+                        },
+                        {
+                            "x": 21.771840113683957,
+                            "y": 17.083424867123565
+                        },
+                        {
+                            "x": 26.07578726558659,
+                            "y": 20.029660457793945
+                        },
+                        {
+                            "x": 35.43581876994769,
+                            "y": 11.42660211510237
+                        },
+                        {
+                            "x": 48.214254179150224,
+                            "y": 0
+                        },
+                        {
+                            "x": 98.47102997133197,
+                            "y": 43.74720456104248
+                        },
+                        {
+                            "x": 100,
+                            "y": 45.0475464564314
+                        },
+                        {
+                            "x": 81.738456573839,
+                            "y": 67.28081938981865
+                        },
+                        {
+                            "x": 66.98064431188368,
+                            "y": 85.15118625807033
+                        },
+                        {
+                            "x": 55.44189610418098,
+                            "y": 96.7862417156078
+                        },
+                        {
+                            "x": 44.3253326288408,
+                            "y": 100
+                        },
+                        {
+                            "x": 28.8969019318234,
+                            "y": 83.33178195295123
+                        },
+                        {
+                            "x": 14.57149788014466,
+                            "y": 65.721833030634
+                        },
+                        {
+                            "x": 0,
+                            "y": 49.101601228025125
+                        },
+                        {
+                            "x": 6.897597104396564,
+                            "y": 37.193315189697785
+                        },
+                        {
+                            "x": 6.095201426509392,
+                            "y": 41.73826324428759
+                        },
+                        {
+                            "x": 7.028302016369,
+                            "y": 35.90626269836825
+                        }
+                    ]
+                },
+                {
+                    "id": "0272e640-c665-4313-a223-3527e9beb064",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 19.307928335595726,
+                    "y": 56.70056164828442,
+                    "width": 30.841903238655043,
+                    "height": 36.804462870097,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.47141637379704115
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.42567567567567566
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 5,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "left",
+                        "offset_x": 17,
+                        "offset_y": -2
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A1</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a1",
+                        "open_link_in_new_window": false
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 2.7536211397146926,
+                            "y": 36.60934994288653
+                        },
+                        {
+                            "x": 0,
+                            "y": 31.76643606728907
+                        },
+                        {
+                            "x": 16.937172030390144,
+                            "y": 21.432907758415478
+                        },
+                        {
+                            "x": 32.3376110460199,
+                            "y": 11.177463185063194
+                        },
+                        {
+                            "x": 47.79603590611088,
+                            "y": 1.533323021103441
+                        },
+                        {
+                            "x": 50.61566779101015,
+                            "y": 0
+                        },
+                        {
+                            "x": 71.17814070058004,
+                            "y": 20.482062510116535
+                        },
+                        {
+                            "x": 100,
+                            "y": 49.0174961424836
+                        },
+                        {
+                            "x": 92.56663062439777,
+                            "y": 55.14755125386813
+                        },
+                        {
+                            "x": 94.91538734776263,
+                            "y": 58.057046325623
+                        },
+                        {
+                            "x": 97.43668924303886,
+                            "y": 59.26612130535472
+                        },
+                        {
+                            "x": 67.12236682394817,
+                            "y": 89.91554463633132
+                        },
+                        {
+                            "x": 57.863905633233074,
+                            "y": 100
+                        },
+                        {
+                            "x": 41.18863253416647,
+                            "y": 82.24314454708768
+                        },
+                        {
+                            "x": 32.6020559711065,
+                            "y": 72.41320716023884
+                        }
+                    ]
+                },
+                {
+                    "id": "d8bec7cd-f410-456a-99dd-2d9d9a856763",
+                    "title": "Poly",
+                    "type": "poly",
+                    "x": 34.57342492418302,
+                    "y": 49.502549170993454,
+                    "width": 27.837563292291684,
+                    "height": 26.90103898370473,
+                    "default_style": {
+                        "opacity": 0,
+                        "background_color": "#ffffff"
+                    },
+                    "mouseover_style": {
+                        "background_color": "#ffffff",
+                        "background_opacity": 0.4256756756756757
+                    },
+                    "tooltip_style": {
+                        "border_radius": 0,
+                        "padding": 5,
+                        "background_color": "#1b3f3d",
+                        "background_opacity": 0.8896103896103896,
+                        "position": "right",
+                        "offset_x": -11,
+                        "offset_y": -4
+                    },
+                    "tooltip_content": [
+                        {
+                            "type": "Heading",
+                            "text": "        <div style=\"display:flex;\">\n          <img src=\"https://g0ah8g3b8z.ufs.sh/f/LOWIS1hFvq1sSdmLlN9DA2zTWbV3nGr6p1MvENcYXfstdmax\" alt=\"icon\" />\n          <h1>A2</h1>\n        </div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "sans-serif",
+                                "fontSize": 20.8,
+                                "lineHeight": "normal",
+                                "color": "#ffffff",
+                                "textAlign": "right"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "7ef35459-ca5e-46b5-b045-0ea8dd18304c"
+                        },
+                        {
+                            "type": "Heading",
+                            "text": "Plotas:<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">&nbsp;</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\">121 m²</span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"><br></span>Sklypas:&nbsp;<span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400; text-align: right;\"></span><span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">10 a</span><div>Apdaila: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Dalinė</span></div><div>Būsena: <span style=\"font-family: sans-serif; font-size: 14px; font-weight: 400;\">Laisvas</span></div>",
+                            "heading": "h3",
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": ""
+                            },
+                            "style": {
+                                "fontFamily": "",
+                                "fontSize": 16,
+                                "lineHeight": "24",
+                                "color": "#ffffff",
+                                "textAlign": "left"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": "auto",
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "0fbab27f-24b2-4026-933f-378c3ae6bd3e"
+                        },
+                        {
+                            "type": "Button",
+                            "text": "plačiau",
+                            "url": "#girios-namai-form",
+                            "script": "",
+                            "newTab": false,
+                            "other": {
+                                "id": "",
+                                "classes": "",
+                                "css": "text-decoration: underline"
+                            },
+                            "style": {
+                                "backgroundColor": "#939393",
+                                "borderRadius": 0,
+                                "fontFamily": "sans-serif",
+                                "fontWeight": 500,
+                                "fontSize": 14,
+                                "lineHeight": 44,
+                                "color": "#ffffff",
+                                "display": "block"
+                            },
+                            "boxModel": {
+                                "width": "auto",
+                                "height": 44,
+                                "margin": {
+                                    "top": 0,
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0
+                                },
+                                "padding": {
+                                    "top": 10,
+                                    "bottom": 10,
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "id": "45e90cb7-0064-4506-84ce-b97f0d0438ff"
+                        }
+                    ],
+                    "actions": {
+                        "click": "follow-link",
+                        "link": "a2",
+                        "open_link_in_new_window": false
+                    },
+                    "x_image_background": 30.18867924528302,
+                    "y_image_background": 65.52083333333333,
+                    "points": [
+                        {
+                            "x": 0,
+                            "y": 28.04953596142593
+                        },
+                        {
+                            "x": 37.62958914743033,
+                            "y": 0
+                        },
+                        {
+                            "x": 44.39160128218786,
+                            "y": 6.782867962847437
+                        },
+                        {
+                            "x": 63.08819958145149,
+                            "y": 21.075973514444353
+                        },
+                        {
+                            "x": 64.89818250751516,
+                            "y": 19.20694378824822
+                        },
+                        {
+                            "x": 68.50220432829762,
+                            "y": 14.647095274927771
+                        },
+                        {
+                            "x": 71.6239816409191,
+                            "y": 11.938327326155592
+                        },
+                        {
+                            "x": 96.6776531454046,
+                            "y": 36.849191415835406
+                        },
+                        {
+                            "x": 93.32682229936297,
+                            "y": 41.75657628383257
+                        },
+                        {
+                            "x": 93.87434664849282,
+                            "y": 48.326882799344105
+                        },
+                        {
+                            "x": 96.46473985254482,
+                            "y": 50.06607883429199
+                        },
+                        {
+                            "x": 100,
+                            "y": 54.19072705493227
+                        },
+                        {
+                            "x": 74.70386640578488,
+                            "y": 82.8498573520055
+                        },
+                        {
+                            "x": 58.969367095477196,
+                            "y": 100
+                        },
+                        {
+                            "x": 36.13321292505573,
+                            "y": 69.672072805548
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": "6.0.4",
+    "general": {
+        "name": "Untitled"
+    }
+}
