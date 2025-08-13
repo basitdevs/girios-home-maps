@@ -74,8 +74,8 @@ body {
 @media (max-width: 720px) {
   .imp-canvas {
     min-height: 355px !important;
-    transform: translate(-95px, 0px) !important;
-    aspect-ratio: 9/5 !important;
+    transform: translate(-58px, 0px) !important;
+    aspect-ratio: 7.5/4.5 !important;
     overflow: hidden !important;
   }
 }

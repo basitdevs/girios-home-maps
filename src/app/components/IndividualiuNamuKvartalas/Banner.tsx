@@ -55,15 +55,42 @@ const Banner = () => {
       </div>
 
       {/* Banner Bottom */}
-      <div className='min-h-[83.812px] max-w-[1346px] translate-y-[-2px] flex md:flex-row flex-col items-center justify-between px-[15px] md:px-[35px] py-[35px] md:py-[10px] mx-auto overflow-hidden w-full bg-black  relative z-10 md:rounded-b-[6px]'>
-        <ul className='flex flex-wrap items-center gap-x-[28px] md:gap-[54px]'>
+      <div className='min-h-[83.812px] max-w-[1346px] translate-y-[-1px] flex md:flex-row flex-col items-center justify-between px-[15px] md:px-[35px] py-[30px] md:py-[10px] mx-auto overflow-hidden w-full bg-black  relative z-10 md:rounded-b-[6px]'>
+        <ul className='hidden md:flex flex-wrap items-center gap-x-[28px] md:gap-[54px]'>
           {bannerDetails.map(({ label, value }, idx) => (
-            <li key={idx} className='text-quinary flex items-center gap-[5.73px]'>
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
               <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
                 {label}
               </span>
               <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
-              <span className='text-[13px] md:text-[18px] font-semibold leading-[31px] tracking-[-0.306px]'>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
+                {value}
+              </span>
+            </li>
+          ))}
+        </ul>
+        {/* Mobile items */}
+        <ul className='flex md:hidden items-center justify-between gap-[10px] w-full'>
+          {bannerDetails.slice(0, 2).map(({ label, value }, idx) => (
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
+              <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
+                {label}
+              </span>
+              <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
+                {value}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <ul className='flex md:hidden items-center justify-between gap-[10px] w-full'>
+          {bannerDetails.slice(2).map(({ label, value }, idx) => (
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
+              <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
+                {label}
+              </span>
+              <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
                 {value}
               </span>
             </li>

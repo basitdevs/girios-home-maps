@@ -51,16 +51,16 @@ export default function TobulasDerinysTarpGamtos({
                 height={521.462}
                 className='hidden md:block w-full h-full object-cover'
               />
-              <div className='relative md:hidden block'>
+              {/* <div className='relative '> */}
                 <Image
                   src='/images/nice_upscaled_2_final_wide.png'
                   alt='Tobulas derinys tarp gamtos, išmanumo ir patogumo.'
                   width={380.454}
                   height={380.454}
-                  className='w-full h-full object-cover'
+                  className='w-full h-full object-cover md:hidden block'
                 />
                 {/* <div className='absolute top-0 left-0 w-[289px] h-[693.83px] pointer-events-none bg-[linear-gradient(270deg,_rgba(124,124,124,0)_0%,_rgba(0,0,0,0.66)_100%)]' /> */}
-              </div>
+              {/* </div> */}
             </div>
 
             {/* Mobile heading */}
@@ -156,26 +156,28 @@ export default function TobulasDerinysTarpGamtos({
 
       {/* Mobile view */}
       <div className='md:hidden flex flex-col gap-[45px] pt-[78px] pb-[60px] bg-white section-padding relative overflow-hidden'>
-        <div className='relative z-10 flex flex-col gap-[45px]'>
+        <div className='relative z-10 flex flex-col gap-[42px]'>
           {cardInfo.map(({ number, icon, title, description, _id }, index) => (
             <div
               key={_id}
-              className={`px-[26.24px] py-[30.32px] w-full h-[284.1px] rounded-xl border border-[#c6c6c654] ${
-                index === 1 ? "bg-[#757061]" : "bg-[#605D5B]"
+              className={`px-[26.24px] py-[30.32px] flex flex-col justify-between w-full h-[284.1px] rounded-[12px] backdrop-blur-[40px] border  ${
+                index === 1 ? "bg-[#757061] border-[#C6C6C654]" : "bg-[#605D5B] border-[#C6C6C654]"
               }`}>
-              <div className='flex items-end gap-1 mb-[13px]'>
-                <span className='text-[69px] font-semibold leading-[51px] tracking-[0.69px] text-white'>
-                  {number}
-                </span>
-                <div className='rounded-[5px] flex justify-center items-center'>
-                  <Image src={icon} alt='Logo' height={29.99} width={29.99} />
+              <div>
+                <div className='flex items-end gap-1 mb-[13px]'>
+                  <span className='text-[69px] font-semibold leading-[51px] tracking-[0.69px] text-white'>
+                    {number}
+                  </span>
+                  <div className='rounded-[5px] flex justify-center items-center'>
+                    <Image src={icon} alt='Logo' height={29.99} width={29.99} />
+                  </div>
                 </div>
+                <p className='text-[19px] font-medium leading-[22px] tracking-[0.19px] text-white'>
+                  {title}
+                </p>
               </div>
-              <p className='text-[19px] font-medium leading-[22px] tracking-[0.19px] text-white'>
-                {title}
-              </p>
               <p
-                className={`mt-[52.6px] text-[15px] font-normal tracking-[0.2px] leading-[22px] text-[#DDD] ${
+                className={`mt-auto text-[15px] font-normal tracking-[0.2px] leading-[22px] text-[#DDDDDD] ${
                   index === 1 ? "max-w-[247.726px]" : "max-w-[243.282px]"
                 }`}>
                 {description}

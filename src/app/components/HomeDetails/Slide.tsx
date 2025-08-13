@@ -130,20 +130,47 @@ export default function Slider() {
       </div>
       {/* Banner Bottom */}
       <div className='min-h-[83.812px] rapper mx-auto w-full translate-y-[-2px] flex md:flex-row flex-col items-center justify-between px-[15px] md:px-[35px] py-[35px] md:py-[10px] bg-black  relative z-10 md:rounded-b-[6px]'>
-        <ul className='flex flex-wrap items-center gap-x-[28px] md:gap-[54px]'>
+        <ul className='hidden md:flex flex-wrap items-center gap-x-[28px] md:gap-[54px]'>
           {bannerDetails.map(({ label, value }, idx) => (
-            <li key={idx} className='text-quinary flex items-center gap-[5.73px]'>
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
               <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
                 {label}
               </span>
               <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
-              <span className='text-[13px] md:text-[18px] font-semibold leading-[31px] tracking-[-0.306px]'>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
                 {value}
               </span>
             </li>
           ))}
         </ul>
 
+        {/* Mobile items */}
+        <ul className='flex md:hidden items-center justify-between gap-[10px] w-full'>
+          {bannerDetails.slice(0, 2).map(({ label, value }, idx) => (
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
+              <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
+                {label}
+              </span>
+              <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
+                {value}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <ul className='flex md:hidden items-center justify-between gap-[10px] w-full'>
+          {bannerDetails.slice(2).map(({ label, value }, idx) => (
+            <li key={idx} className='text-quinary flex items-center gap-[5px]'>
+              <span className='uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]'>
+                {label}
+              </span>
+              <span className='bg-[#FAFAFA] h-[1px] w-[9.28px]'></span>
+              <span className='text-[15px] md:text-[18px] font-[700] leading-[31px] tracking-[-0.306px]'>
+                {value}
+              </span>
+            </li>
+          ))}
+        </ul>
         <button className='transition-all duration-300 hover:opacity-90  cursor-pointer w-full md:mt-0 mt-5 lg:w-[205.2px] h-[41.414px] rounded-[8px] bg-[#0051FF] flex items-center justify-center gap-[7px] text-quinary'>
           <span className='text-[14px] tracking-[1.4px] uppercase text-[#FAFAFA]'>
             SUSISIEKTI Dėl <span className='font-bold'>A4</span>
