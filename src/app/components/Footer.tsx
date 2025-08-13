@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -23,11 +24,11 @@ const Footer = () => {
           </div>
 
           {/* Phone Number */}
-          <a
+          <Link
             href='tel:+37061912200'
             className='text-[33px] md:text-[38px] text-black hover:text-primary transition-all duration-300 ease-in-out font-medium md:tracking-[1.74px] tracking-[0.99px]'>
             +370 619 12 200
-          </a>
+          </Link>
         </div>
 
         {/* Bottom Section */}
@@ -37,11 +38,11 @@ const Footer = () => {
             <p className='text-black font-urbanist md:tracking-[1.6px] tracking-[1.2px] text-[12px] font-normal uppercase text-center md:text-left'>
               © {currentYear} GIRIOS NAMAI. Visos teisės saugomos
             </p>
-            <a
+            <Link
               href='/privacy-policy'
               className='text-black font-urbanist text-[12px] font-normal uppercase tracking-[1.2px] border-b-[#D8D8D8] border-b-[0.5px] hover:text-primary hover:border-primary ease-in-out transition-colors duration-300'>
               PRIVATUMO POLITIKA
-            </a>
+            </Link>
           </div>
 
           {/* Right: Project Info */}

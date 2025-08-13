@@ -17,9 +17,7 @@ export default function page() {
         <Rome />
       </div>
       <TobulasDerinysTarpGamtos />
-      {/* Slider */}
       <BannerSlider />
-      {/* Timeline */}
       <TimeLine />
       <GiriosNamaiForm />
     </main>

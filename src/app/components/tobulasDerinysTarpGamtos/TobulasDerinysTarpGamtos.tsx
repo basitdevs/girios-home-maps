@@ -1,6 +1,4 @@
 import Image from "next/image";
-import TimeLine from "./TimeLine";
-import BannerSlider from "./BannerSlider";
 
 const cardInfo = [
   {
