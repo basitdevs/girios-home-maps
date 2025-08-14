@@ -14,6 +14,7 @@ export default function Navbar() {
                 alt='Logo'
                 height={200}
                 width={200}
+                priority
                 className='md:w-[39.329px] w-[24px] h-[32px] md:h-[51.619] aspect-[39.33/51.62]'
               />
             </Link>
@@ -30,7 +31,7 @@ export default function Navbar() {
 
               {/* Button */}
               <Link
-                href={"#home-selection-map"}
+                href={"/#home-selection-map"}
                 type='button'
                 className='transition-all group duration-300 cursor-pointer bg-white w-[150px] sm:w-[198.408px] h-[49px] sm:h-[70.404px] text-black border border-primary hover:bg-primary hover:text-white rounded-[14px] flex justify-center items-center gap-[9.26px]'>
                 <span className='text-[14px] sm:text-[17px] font-semibold tracking-[0.68px]'>

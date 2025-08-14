@@ -131,7 +131,8 @@ export default function TimeLine() {
                           alt='icon'
                           width={event.icon.w}
                           height={event.icon.h}
-                          className={`flex-shrink-0 w-[${event.icon.w}px] h-[${event.icon.h}px]`}
+                          loading="lazy"
+                          className={`flex-shrink-0 `}
                         />
                       </div>
                     </div>

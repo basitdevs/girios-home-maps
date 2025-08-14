@@ -2,41 +2,53 @@
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function ImageMapPro() {
   const [isLoading, setIsLoading] = useState(true);
   const pathname = usePathname();
+  const configRef = useRef<Record<string, unknown> | null>(null);
+  const isMountedRef = useRef(true);
+  const scriptLoadedRef = useRef(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    isMountedRef.current = true;
     let observer: MutationObserver | null = null;
-    let configData: Record<string, unknown> | null = null;
 
     async function init() {
       try {
+        if (!isMountedRef.current) return;
         setIsLoading(true);
 
-        const response = await fetch("/script/image-map-config.json");
-        configData = await response.json();
+        // Fetch config only once
+        if (!configRef.current) {
+          const response = await fetch("/script/image-map-config.json");
+          configRef.current = await response.json();
+        }
 
         const startObserver = () => {
-          const target = document.getElementById("image-map-pro");
-          if (!target) return;
+          if (!containerRef.current) return;
 
           observer = new MutationObserver(() => {
-            if (target.children.length > 0) {
+            if (containerRef.current?.children.length && isMountedRef.current) {
               setIsLoading(false);
               observer?.disconnect();
             }
           });
 
-          observer.observe(target, { childList: true });
+          observer.observe(containerRef.current, { childList: true });
         };
 
         const initializeMap = () => {
+          if (!configRef.current || !isMountedRef.current) return;
+
           startObserver();
-          if (window.ImageMapPro) {
-            window.ImageMapPro.init("#image-map-pro", configData as Record<string, unknown>);
+
+          // Check if library is available
+          if (typeof window.ImageMapPro?.init === "function") {
+            // Use selector string instead of DOM element
+            window.ImageMapPro.init("#image-map-pro", configRef.current);
           }
         };
 
@@ -45,45 +57,42 @@ export default function ImageMapPro() {
             'script[src="/script/image-map-pro.min.js"]'
           );
 
-          if (!existingScript) {
+          if (!existingScript && !scriptLoadedRef.current) {
+            scriptLoadedRef.current = true;
             const script = document.createElement("script");
             script.src = "/script/image-map-pro.min.js";
             script.async = true;
             script.onload = () => {
-              if (window.ImageMapPro) {
-                initializeMap();
-              }
+              if (isMountedRef.current) initializeMap();
             };
             document.body.appendChild(script);
           } else {
-            if (window.ImageMapPro) {
-              initializeMap();
-            }
+            initializeMap();
           }
         };
 
         loadScript();
       } catch (error) {
-        console.error("Failed to initialize ImageMapPro:", error);
-        setIsLoading(false);
+        if (isMountedRef.current) {
+          console.error("Failed to initialize ImageMapPro:", error);
+          setIsLoading(false);
+        }
       }
     }
 
-    // Run on route change
     init();
 
-    // Handle resize
-    const handleResize = () => {
-      if (window.ImageMapPro && configData) {
-        setIsLoading(true);
-        window.ImageMapPro.init("#image-map-pro", configData);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-
     return () => {
+      isMountedRef.current = false;
       observer?.disconnect();
-      window.removeEventListener("resize", handleResize);
+
+      // Cleanup DOM completely
+      if (containerRef.current) {
+        // Remove all children
+        while (containerRef.current.firstChild) {
+          containerRef.current.removeChild(containerRef.current.firstChild);
+        }
+      }
     };
   }, [pathname]);
 
@@ -102,6 +111,7 @@ export default function ImageMapPro() {
       )}
 
       <div
+        ref={containerRef}
         id='image-map-pro'
         className='w-full !h-full !min-h-[353px] lg:min-h-[652px] overflow-hidden'
       />

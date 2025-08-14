@@ -91,7 +91,7 @@ export default function GiriosNamaiForm() {
   };
 
   return (
-    <section className='mt-[34] md:mt-[80] ' id="contact">
+    <section className='md:pt-[80] ' id="contact">
       <div className='max-w-[1352px] mx-auto '>
         <div className='flex flex-col md:flex-row items-center justify-center'>
           <div className='bg-[#141414] md:bg-[#232323] px-[15px] md:px-[45px] py-[50px] md:py-[40px] flex items-center justify-center w-full md:h-[621.845px] h-auto md:rounded-l-[7px]'>
