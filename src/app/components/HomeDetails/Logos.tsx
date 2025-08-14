@@ -36,7 +36,7 @@ const brands = [
 export default function Logos() {
   return (
     <div className='bg-[#fafafa] max-w-[740px] sm:h-[86px] mx-auto mb-12 xl:mb-[57px] xl:mt-[12px]'>
-      <div className='flex items-center sm:flex-nowrap justify-center flex-wrap sm:gap-5 gap-x-2 gap-y-4'>
+      <div className='flex items-center sm:flex-nowrap justify-center flex-wrap sm:gap-[30px] gap-x-[20px] gap-y-4'>
         {brands.map((brand, index) => (
           <div
             key={index}

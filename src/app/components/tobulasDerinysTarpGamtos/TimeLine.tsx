@@ -51,7 +51,7 @@ export default function TimeLine() {
 
   return (
     <div className='wrapper mx-auto bg-[#F3F3F3] overflow-hidden md:translate-y-[-15px]  relative z-[99] rounded-[7px]'>
-      <div className='w-full mx-auto lg:pb-[86px] py-[60px] md:py-[80px]'>
+      <div className='w-full mx-auto lg:pb-[86px] pb-[88px] py-[60px] md:py-[80px]'>
         <h2 className='text-[31px] text-center sm:text-[42px] font-semibold'>Statybų eiga</h2>
         <div className='w-full'>
           {/* ===== Desktop View ===== */}

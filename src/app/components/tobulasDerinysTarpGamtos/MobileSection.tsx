@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MobileSection = () => {
   return (
-    <div className='block md:hidden mt-[35px] mb-[91px]'>
+    <div className='block md:hidden mt-[20px] mb-[91px]'>
       {/* First Image */}
       <div className='w-full '>
         <Image

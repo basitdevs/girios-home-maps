@@ -28,7 +28,7 @@ const faqItems = [
 
 export default function FunkcionalumasIr() {
   return (
-    <>
+    <div id="project-plan">
       <section className='mt-[34.67px] md:mt-[80.61px]'>
         <div className='wrapper lg:px-[60px] px-[15px]'>
           <div className='flex flex-col lg:flex-row xl:gap-[118.52px] gap-[50px] justify-between relative'>
@@ -55,7 +55,7 @@ export default function FunkcionalumasIr() {
             </div>
 
             {/* Right content */}
-            <div className='w-full flex md:flex-col flex-col-reverse max-w-[460px]'>
+            <div className='w-full flex md:flex-col flex-col-reverse max-w-[460px] mt-[15px]'>
               <div>
                 <p className='text-[16px] font-medium tracking-[0.16px] text-octonary mt-[59px] md:hidden'>
                   02
@@ -68,7 +68,7 @@ export default function FunkcionalumasIr() {
                   <h1 className='order-2 md:order-1 text-[30px] sm:text-[40px] font-medium md:leading-[47px] md:tracking-[0.4px] leading-[37px] tracking-[0.3px]'>
                     Funkcionalumas ir ilgamžiškumas
                   </h1>
-                  <div className='order-1 md:order-2 border-2 md:min-w-[88px] min-w-[67.232px] rounded-[14px] md:h-[91px] h-[65.059px] ml-2 border-[#A9A9A9] bg-[#5C5C5C] bg-gradient-to-br flex justify-center items-center from-[rgba(255,140,26,0)] to-[rgba(255,239,148,0.2)] '>
+                  <div className='order-1 md:order-2 border-2 md:mt-[10px] md:min-w-[88px] min-w-[67.232px] rounded-[14px] md:h-[91px] h-[65.059px] ml-2 border-[#A9A9A9] bg-[#5C5C5C] bg-gradient-to-br flex justify-center items-center from-[rgba(255,140,26,0)] to-[rgba(255,239,148,0.2)] '>
                     <Image
                       src='/images/home/flag-like-icon.png'
                       alt='Logo'
@@ -92,7 +92,8 @@ export default function FunkcionalumasIr() {
                   <Collaps
                     key={idx}
                     title={faq.title}
-                    className={idx === 0 ? "border-t-0 rounded-t-[5px]" : ""}>
+                    className={idx === 0 ? "border-t-0 rounded-t-[5px]" : ""}
+                  >
                     <p className='p-4 text-gray-600 text-[16px] font-medium'>{faq.content}</p>
                   </Collaps>
                 ))}
@@ -103,6 +104,6 @@ export default function FunkcionalumasIr() {
       </section>
 
       <MobileSection />
-    </>
+    </div>
   );
 }

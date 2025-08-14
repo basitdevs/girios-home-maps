@@ -16,7 +16,7 @@ export default async function HomeDetailPage({ params }: { params: Params }) {
   return (
     <div className='pt-[30px] md:pt-[90px]'>
       <div className='wrapper '>
-        <div className='flex items-center w-full gap-3 sm:gap-[24px] px-[15px]'>
+        <div className='flex items-center w-full gap-3 sm:gap-[24px] px-[15px] md:px-0'>
           <Link href={"/"} className='cursor-pointer w-10 md:w-[75px] h-12 md:h-[62px]'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

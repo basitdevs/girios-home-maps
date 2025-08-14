@@ -95,13 +95,13 @@ const houseDetails = [
 const Cards = () => {
   return (
     <div className='md:px-[60px] px-[15px]'>
-      <div className='grid md:grid-cols-2 lg:grid-cols-4 py-14 xl:py-[81px] gap-4 xl:gap-[40px]'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-4 py-[45px] xl:py-[61px] gap-4 xl:gap-[40px]'>
         {houseDetails.map((item) => (
           <div
             key={item.id}
             className={`group bg-[#F6F6F6] rounded-md py-[40px] w-full px-[30px] pr-[25px] hover:bg-[linear-gradient(123deg,#F6F6F6_3.17%,#D7D7D7_223.59%)] transition-all duration-300`}>
             {/* Top Row */}
-            <div className='flex justify-between mb-[2px]'>
+            <div className='flex justify-between mb-[15px]'>
               <div
                 className={`w-[43px] group-hover:bg-[#39ab65] group-hover:w-[103px] transition-all duration-500 ease-in-out bg-primary h-[3px] mt-1 ml-[2px]`}
               />

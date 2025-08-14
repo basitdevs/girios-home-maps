@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HouseBrandDetails() {
   return (
-    <div className='max-w-[1230px] mx-auto'>
+    <div className='max-w-[1230px] mx-auto md:pb-[30px]'>
       {/* Section 1 */}
       <div className='flex flex-col-reverse md:flex-row justify-between xl:gap-0 gap-6 items-center mb-6 md:mb-[79px]'>
         <div className='ml-3 mb-10'>
