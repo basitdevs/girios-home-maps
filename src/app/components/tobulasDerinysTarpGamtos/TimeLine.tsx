@@ -58,12 +58,12 @@ export default function TimeLine() {
           <div className='hidden lg:flex section-padding'>
             <div className='w-full max-w-[800px] xl:max-w-[1098.03px] mx-auto mt-[40px] md:mt-[62.09px]'>
               <div className='flex justify-between mb-4 md:mb-6'>
-                <div className='w-[45%] text-left ml-[17%]'>
+                <div className='w-[45%] text-left ml-[15%]'>
                   <p className='text-[18px] font-medium leading-[17px] tracking-[0.18px]'>
                     Sklypo formavimo darbai
                   </p>
                 </div>
-                <div className='w-[45%] text-right mr-[22.5%]'>
+                <div className='w-[45%] text-right mr-[20%]'>
                   <p className='text-[18px] font-medium leading-[17px] tracking-[0.18px]'>
                     Fasado darbai
                   </p>

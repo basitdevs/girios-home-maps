@@ -297,7 +297,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a6",
+                        "link": "a6.html",
                         "open_link_in_new_window": false
                     },
                     "x_image_background": 30.18867924528302,
@@ -501,7 +501,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a7"
+                        "link": "a7.html"
                     },
                     "x_image_background": 30.18867924528302,
                     "y_image_background": 65.52083333333333,
@@ -701,7 +701,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a4",
+                        "link": "a4.html",
                         "open_link_in_new_window": false
                     },
                     "x_image_background": 30.18867924528302,
@@ -839,7 +839,7 @@
                         },
                         {
                             "type": "Heading",
-                            "text": "Sold<br>",
+                            "text": "Parduotas<br>",
                             "heading": "h3",
                             "other": {
                                 "id": "",
@@ -1057,7 +1057,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a3",
+                        "link": "a3.html",
                         "open_link_in_new_window": false
                     },
                     "x_image_background": 30.18867924528302,
@@ -1270,7 +1270,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a1",
+                        "link": "a1.html",
                         "open_link_in_new_window": false
                     },
                     "x_image_background": 30.18867924528302,
@@ -1474,7 +1474,7 @@
                     ],
                     "actions": {
                         "click": "follow-link",
-                        "link": "a2",
+                        "link": "a2.html",
                         "open_link_in_new_window": false
                     },
                     "x_image_background": 30.18867924528302,

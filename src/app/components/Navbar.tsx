@@ -12,9 +12,10 @@ export default function Navbar() {
               <Image
                 src='/logo.png'
                 alt='Logo'
-                height={200}
-                width={200}
-                priority
+                width={40} // optimized to actual display size
+                height={52}
+                priority // keeps logo always loaded fast
+                sizes='(max-width: 768px) 24px, 40px' // responsive size hint
                 className='md:w-[39.329px] w-[24px] h-[32px] md:h-[51.619] aspect-[39.33/51.62]'
               />
             </Link>
@@ -24,16 +25,21 @@ export default function Navbar() {
               {/* Phone Link */}
               <Link
                 href='tel:+370 619 12 200'
-                aria-label='Contact to this phone number'
-                className='md:flex hidden text-black sm:text-[27px] tracking-[0.42px] font-medium transition-colors hover:text-primary'>
+                aria-label='Call +370 619 12 200'
+                prefetch={false}
+                className='md:flex hidden text-black sm:text-[27px] tracking-[0.42px] font-medium transition-colors hover:text-primary'
+              >
                 +370 619 12 200
               </Link>
 
               {/* Button */}
               <Link
                 href={"/#home-selection-map"}
+                aria-label='Go to Home Selection Map'
+                prefetch={false}
                 type='button'
-                className='transition-all group duration-300 cursor-pointer bg-white w-[150px] sm:w-[198.408px] h-[49px] sm:h-[70.404px] text-black border border-primary hover:bg-primary hover:text-white rounded-[14px] flex justify-center items-center gap-[9.26px]'>
+                className='transition-all group duration-300 cursor-pointer bg-white w-[150px] sm:w-[198.408px] h-[49px] sm:h-[70.404px] text-black border border-primary hover:bg-primary hover:text-white rounded-[14px] flex justify-center items-center gap-[9.26px]'
+              >
                 <span className='text-[14px] sm:text-[17px] font-semibold tracking-[0.68px]'>
                   Rinktis namą
                 </span>
@@ -42,6 +48,8 @@ export default function Navbar() {
                   alt='Home icon'
                   height={21.658}
                   width={21.061}
+                  loading='lazy' // lazy load since it's not critical
+                  sizes='22px' //
                   className='w-[15px] h-[15px] group-hover:brightness-0 group-hover:invert-[1] sm:w-[21.061px] sm:h-[21.658px] aspect-[21.06/21.66]'
                 />
               </Link>

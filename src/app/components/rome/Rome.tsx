@@ -14,6 +14,7 @@ const Rome = () => {
                 alt='Contact Image'
                 width={305}
                 height={453}
+                loading='lazy'
                 className='w-full h-full object-cover'
               />
             </div>
@@ -30,6 +31,7 @@ const Rome = () => {
               alt='Contact Image'
               width={612}
               height={389}
+              loading='lazy'
               className='w-full max-w-[612px]'
             />
             <p className='text-[#626262] text-[15px] leading-[21px] max-w-[325px] font-[600] text-center xl:text-left'>

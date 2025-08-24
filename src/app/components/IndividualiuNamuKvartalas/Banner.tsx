@@ -35,7 +35,7 @@ const Banner = () => {
           <h3 className='text-[#C5C5C5] font-urbanist text-[13px] leading-[18px] md:text-[16px] font-[500] tracking-[0.2px] flex items-center gap-[5px] md:gap-[10px]'>
             Laisvu namų skaičius:{" "}
             <span className='size-[19px] md:size-[25px] text-[15px] md:text-[20px] leading-[17px] font-bold flex items-center justify-center bg-white text-black  rounded-full'>
-              <span className="translate-y-[-0.5px]">6</span>
+              <span className='translate-y-[-0.5px]'>6</span>
             </span>
           </h3>
           <div className='hidden md:flex items-center gap-[10px]'>
@@ -45,6 +45,7 @@ const Banner = () => {
                 alt='girios-namai-logo'
                 width={25}
                 height={25}
+                loading='lazy'
                 className='w-full h-[20px] object-contain'
               />
             </div>
@@ -98,7 +99,10 @@ const Banner = () => {
           ))}
         </ul>
 
-        <Link href={"#project-plan"} className='transition-all duration-300 hover:opacity-90  cursor-pointer w-full md:mt-0 mt-5 lg:w-[205.2px] h-[41.414px] rounded-[8px] bg-septenary flex items-center justify-center gap-[7px] text-quinary'>
+        <Link
+          href={"#project-plan"}
+          className='transition-all duration-300 hover:opacity-90  cursor-pointer w-full md:mt-0 mt-5 lg:w-[205.2px] h-[41.414px] rounded-[8px] bg-septenary flex items-center justify-center gap-[7px] text-quinary'
+        >
           <span className='text-[14px] tracking-[1.4px] uppercase'>projekto planas</span>
           <svg
             xmlns='http://www.w3.org/2000/svg'

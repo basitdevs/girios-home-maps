@@ -8,6 +8,7 @@ const cardInfo = [
     title: "Namai bus įrengti 2025/Q4",
     description:
       "Jau šiais metais isikelkite į naujos kartos, A++ energinės klasės namus, Vakaru gatvėje.",
+
     _id: "pyadfT*&*&&6&*4674",
   },
   {
@@ -49,6 +50,7 @@ export default function TobulasDerinysTarpGamtos({
                 alt='Tobulas derinys tarp gamtos, išmanumo ir patogumo.'
                 width={1351.354}
                 height={521.462}
+                loading='lazy'
                 className='hidden md:block w-full h-full object-cover'
               />
               {/* <div className='relative '> */}
@@ -57,6 +59,7 @@ export default function TobulasDerinysTarpGamtos({
                 alt='Tobulas derinys tarp gamtos, išmanumo ir patogumo.'
                 width={380.454}
                 height={380.454}
+                loading='lazy'
                 className='w-full h-full object-cover md:hidden block'
               />
               {/* <div className='absolute top-0 left-0 w-[289px] h-[693.83px] pointer-events-none bg-[linear-gradient(270deg,_rgba(124,124,124,0)_0%,_rgba(0,0,0,0.66)_100%)]' /> */}
@@ -99,6 +102,7 @@ export default function TobulasDerinysTarpGamtos({
                           alt='Logo'
                           height={21.061}
                           width={21.658}
+                          loading='lazy'
                           className='w-[15px] group-hover:brightness-0 group-hover:invert-[1] transition-all duration-300 ease-in-out h-[15px] sm:w-[21.061px] sm:h-[21.658px]'
                         />
                       ) : (
@@ -124,7 +128,7 @@ export default function TobulasDerinysTarpGamtos({
                   {cardInfo.map(({ number, icon, title, description, _id }, idx) => (
                     <div
                       key={_id}
-                      className='px-[26.24px] py-[30.32px] w-full md:w-[310.965px] sm:h-[284.1px] rounded-[12px] border border-[#C6C6C654] bg-[#9C9C9C87] backdrop-blur-[41px]'
+                      className='px-[24px] py-[30.32px] w-full md:w-[311px] sm:h-[287px] rounded-[12px] border border-[#C6C6C654] bg-[#9C9C9C87] backdrop-blur-[41px]'
                     >
                       <div className='flex items-end gap-1 mb-[13px]'>
                         <span className='text-[69px] font-[600] leading-[51px] tracking-[0.69px] text-white'>
@@ -138,14 +142,24 @@ export default function TobulasDerinysTarpGamtos({
                           </div>
                         ) : (
                           <div className='rounded-[5px] flex justify-center items-center'>
-                            <Image src={icon} alt='Logo' height={29.99} width={29.99} />
+                            <Image
+                              src={icon}
+                              alt='Logo'
+                              height={29.99}
+                              width={29.99}
+                              loading='lazy'
+                            />
                           </div>
                         )}
                       </div>
                       <p className='text-[19px] font-[500] leading-[22px] tracking-[0.19px] text-white'>
                         {title}
                       </p>
-                      <p className='mt-[73.87px] text-[15px] font-[600] tracking-[0.2px] leading-[22px] text-white'>
+                      <p
+                        className={`mt-[73.87px] text-[15px] font-medium tracking-[0.2px] leading-[22px] text-white ${
+                          idx === 1 ? "max-w-[267px]" : "max-w-[254px]"
+                        }`}
+                      >
                         {description}
                       </p>
                     </div>
@@ -163,7 +177,7 @@ export default function TobulasDerinysTarpGamtos({
           {cardInfo.map(({ number, icon, title, description, _id }, index) => (
             <div
               key={_id}
-              className={`px-[26.24px] py-[30.32px] flex flex-col justify-between w-full h-[284.1px] rounded-[12px] backdrop-blur-[40px] border  ${
+              className={`px-[24px] py-[30.32px] flex flex-col justify-between w-full h-[287px] rounded-[12px] backdrop-blur-[40px] border  ${
                 index === 1 ? "bg-[#757061] border-[#C6C6C654]" : "bg-[#605D5B] border-[#C6C6C654]"
               }`}
             >
@@ -173,7 +187,7 @@ export default function TobulasDerinysTarpGamtos({
                     {number}
                   </span>
                   <div className='rounded-[5px] flex justify-center items-center'>
-                    <Image src={icon} alt='Logo' height={29.99} width={29.99} />
+                    <Image src={icon} alt='Logo' height={29.99} width={29.99} loading='lazy' />
                   </div>
                 </div>
                 <p className='text-[19px] font-medium leading-[22px] tracking-[0.19px] text-white'>
@@ -181,7 +195,7 @@ export default function TobulasDerinysTarpGamtos({
                 </p>
               </div>
               <p
-                className={`mt-auto text-[15px] font-normal tracking-[0.2px] leading-[22px] text-[#DDDDDD] ${
+                className={`mt-auto text-[15px] font-medium tracking-[0.2px] leading-[22px] text-[#DDDDDD] ${
                   index === 1 ? "max-w-[247.726px]" : "max-w-[243.282px]"
                 }`}
               >

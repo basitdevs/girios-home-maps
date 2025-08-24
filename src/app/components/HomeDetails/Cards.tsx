@@ -14,7 +14,8 @@ const houseDetails = [
         height='17'
         viewBox='0 0 11 17'
         fill='none'
-        className='md:group-hover:text-decimal text-decimal md:text-grey-1 transition-all duration-300'>
+        className='md:group-hover:text-decimal text-decimal md:text-grey-1 transition-all duration-300'
+      >
         <path
           d='M4.96974 1.27487L1.21964 5.96231C1.15001 6.04935 1.09477 6.15269 1.05708 6.26641C1.0194 6.38013 1 6.50202 1 6.62512C1 6.87372 1.07901 7.11213 1.21964 7.28792C1.28928 7.37496 1.37195 7.44401 1.46293 7.49111C1.55391 7.53822 1.65143 7.56246 1.74991 7.56246C1.94879 7.56246 2.13953 7.46371 2.28017 7.28792L4.74998 4.20077L4.74998 15.0625C4.74998 15.3111 4.829 15.5496 4.96966 15.7254C5.11031 15.9012 5.30108 16 5.5 16C5.69892 16 5.88969 15.9012 6.03034 15.7254C6.171 15.5496 6.25002 15.3111 6.25002 15.0625L6.25002 4.20077L8.71983 7.28792C8.86047 7.46371 9.05121 7.56246 9.2501 7.56246C9.44898 7.56246 9.63972 7.46371 9.78036 7.28792C9.92099 7.11213 10 6.87372 10 6.62512C10 6.37652 9.92099 6.1381 9.78036 5.96231L6.03026 1.27487C5.96067 1.18773 5.87802 1.11861 5.78703 1.07144C5.69604 1.02428 5.5985 1 5.5 1C5.4015 1 5.30396 1.02428 5.21297 1.07144C5.12198 1.11861 5.03933 1.18773 4.96974 1.27487Z'
           fill='currentColor'
@@ -35,7 +36,8 @@ const houseDetails = [
         height='17'
         viewBox='0 0 14 17'
         fill='none'
-        className='md:group-hover:text-decimal text-decimal md:text-grey-1 transition-all duration-300'>
+        className='md:group-hover:text-decimal text-decimal md:text-grey-1 transition-all duration-300'
+      >
         <path
           d='M2 9.1862L5.44555 14L12 2'
           stroke='currentColor'
@@ -57,6 +59,7 @@ const houseDetails = [
           alt='House Details'
           width={17}
           height={17}
+          loading='lazy'
           className='md:group-hover:hidden md:block hidden'
         />
         <Image
@@ -64,6 +67,7 @@ const houseDetails = [
           alt='House Details'
           width={17}
           height={17}
+          loading='lazy'
           className='md:group-hover:block md:hidden'
         />
       </span>
@@ -81,7 +85,8 @@ const houseDetails = [
         width='24'
         height='12'
         viewBox='0 0 24 12'
-        fill='none'>
+        fill='none'
+      >
         <path
           d='M12.229 11L2 6.25424L12.229 1L22 6.25424L12.229 11Z'
           fill='currentColor'
@@ -99,7 +104,8 @@ const Cards = () => {
         {houseDetails.map((item) => (
           <div
             key={item.id}
-            className={`group bg-[#F6F6F6] rounded-md py-[40px] w-full px-[30px] pr-[25px] hover:bg-[linear-gradient(123deg,#F6F6F6_3.17%,#D7D7D7_223.59%)] transition-all duration-300`}>
+            className={`group bg-[#F6F6F6] rounded-md py-[40px] w-full px-[30px] pr-[25px] hover:bg-[linear-gradient(123deg,#F6F6F6_3.17%,#D7D7D7_223.59%)] transition-all duration-300`}
+          >
             {/* Top Row */}
             <div className='flex justify-between mb-[15px]'>
               <div

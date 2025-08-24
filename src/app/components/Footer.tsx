@@ -15,10 +15,10 @@ const Footer = () => {
             <Image
               src='/logo.png'
               alt='Girios Namai Logo'
-              width={200}
-              height={200}
+              width={50}
+              height={50}
               className='w-[27.864px] h-[36.566px] aspect-[27.86/36.57]'
-              priority
+              loading='lazy'
             />
             <p className='text-[21px] text-black font-semibold'>Girios Namai</p>
           </Link>
@@ -26,7 +26,10 @@ const Footer = () => {
           {/* Phone Number */}
           <Link
             href='tel:+37061912200'
-            className='text-[33px] md:text-[38px] leading-[1] text-black hover:text-primary transition-all duration-300 ease-in-out font-medium md:tracking-[1.74px] tracking-[0.99px]'>
+            aria-label='Call +370 619 12 200'
+            prefetch={false}
+            className='text-[33px] md:text-[38px] leading-[1] text-black hover:text-primary transition-all duration-300 ease-in-out font-medium md:tracking-[1.74px] tracking-[0.99px]'
+          >
             +370 619 12 200
           </Link>
         </div>
@@ -40,7 +43,8 @@ const Footer = () => {
             </p>
             <Link
               href='/privacy-policy'
-              className='text-black font-urbanist text-[12px] font-normal uppercase tracking-[1.2px] border-b-[#D8D8D8] border-b-[0.5px] hover:text-primary hover:border-primary ease-in-out transition-colors duration-300'>
+              className='text-black font-urbanist text-[12px] font-normal uppercase tracking-[1.2px] border-b-[#D8D8D8] border-b-[0.5px] hover:text-primary hover:border-primary ease-in-out transition-colors duration-300'
+            >
               PRIVATUMO POLITIKA
             </Link>
           </div>

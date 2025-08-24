@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HouseBanner() {
   return (
-    <section className='max-w-[1248px] mx-auto mb-20 xl:mb-[131px]'>
+    <section className='max-w-[1248px] md:block hidden mx-auto mb-20 xl:mb-[131px]'>
       <div className='md:ml-5 md:mr-[8px] relative'>
         {/* Main Banner */}
         <Image
@@ -10,6 +10,7 @@ export default function HouseBanner() {
           src='/images/homedetail-bannner.jpg'
           width={1500}
           height={500}
+          loading='lazy'
           className='w-full h-[389px] object-cover md:rounded-md'
         />
 
@@ -20,6 +21,7 @@ export default function HouseBanner() {
             src='/images/logo2.png'
             width={100}
             height={100}
+            loading='lazy'
             className='w-full h-full object-cover'
           />
         </div>
@@ -30,7 +32,8 @@ export default function HouseBanner() {
           style={{
             background:
               "linear-gradient(270deg, rgba(124, 124, 124, 0) 0%, rgba(0, 0, 0, 0.72) 100%)",
-          }}></div>
+          }}
+        ></div>
       </div>
     </section>
   );

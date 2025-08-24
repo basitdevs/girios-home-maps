@@ -1,103 +1,61 @@
 "use client";
 
 import Image from "next/image";
+import Script from "next/script";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
+
+// ✅ Cache config globally so it's only fetched once
+let cachedConfig: Record<string, unknown> | null = null;
 
 export default function ImageMapPro() {
   const [isLoading, setIsLoading] = useState(true);
   const pathname = usePathname();
-  const configRef = useRef<Record<string, unknown> | null>(null);
-  const isMountedRef = useRef(true);
-  const scriptLoadedRef = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // ✅ Initialize map when script + config are ready
+  const initializeMap = () => {
+    if (!cachedConfig || !containerRef.current) return;
+    if (typeof window !== "undefined" && typeof window.ImageMapPro?.init === "function") {
+      window.ImageMapPro.init("#image-map-pro", cachedConfig);
+      setIsLoading(false);
+    }
+  };
+
   useEffect(() => {
-    isMountedRef.current = true;
-    let observer: MutationObserver | null = null;
+    let isMounted = true;
 
     async function init() {
+      setIsLoading(true);
+
       try {
-        if (!isMountedRef.current) return;
-        setIsLoading(true);
-
         // Fetch config only once
-        if (!configRef.current) {
+        if (!cachedConfig) {
           const response = await fetch("/script/image-map-config.json");
-          configRef.current = await response.json();
+          cachedConfig = await response.json();
         }
 
-        const startObserver = () => {
-          if (!containerRef.current) return;
-
-          observer = new MutationObserver(() => {
-            if (containerRef.current?.children.length && isMountedRef.current) {
-              setIsLoading(false);
-              observer?.disconnect();
-            }
-          });
-
-          observer.observe(containerRef.current, { childList: true });
-        };
-
-        const initializeMap = () => {
-          if (!configRef.current || !isMountedRef.current) return;
-
-          startObserver();
-
-          // Check if library is available
-          if (typeof window.ImageMapPro?.init === "function") {
-            // Use selector string instead of DOM element
-            window.ImageMapPro.init("#image-map-pro", configRef.current);
-          }
-        };
-
-        const loadScript = () => {
-          const existingScript = document.querySelector(
-            'script[src="/script/image-map-pro.min.js"]'
-          );
-
-          if (!existingScript && !scriptLoadedRef.current) {
-            scriptLoadedRef.current = true;
-            const script = document.createElement("script");
-            script.src = "/script/image-map-pro.min.js";
-            script.async = true;
-            script.onload = () => {
-              if (isMountedRef.current) initializeMap();
-            };
-            document.body.appendChild(script);
-          } else {
-            initializeMap();
-          }
-        };
-
-        loadScript();
+        // Initialize after script is loaded
+        if (isMounted) initializeMap();
       } catch (error) {
-        if (isMountedRef.current) {
-          console.error("Failed to initialize ImageMapPro:", error);
-          setIsLoading(false);
-        }
+        console.error("Failed to initialize ImageMapPro:", error);
+        if (isMounted) setIsLoading(false);
       }
     }
 
     init();
 
     return () => {
-      isMountedRef.current = false;
-      observer?.disconnect();
-
-      // Cleanup DOM completely
+      isMounted = false;
       if (containerRef.current) {
-        // Remove all children
-        while (containerRef.current.firstChild) {
-          containerRef.current.removeChild(containerRef.current.firstChild);
-        }
+        containerRef.current.innerHTML = ""; // ✅ lighter cleanup
       }
     };
   }, [pathname]);
 
   return (
     <div className='relative w-full overflow-hidden h-full min-h-[353px] lg:min-h-[652px]'>
+      {/* ✅ Lazy load placeholder */}
       {isLoading && (
         <div className='absolute inset-0 z-10'>
           <Image
@@ -105,7 +63,7 @@ export default function ImageMapPro() {
             alt='banner'
             fill
             className='object-cover'
-            priority
+            loading='lazy'
           />
         </div>
       )}
@@ -114,6 +72,13 @@ export default function ImageMapPro() {
         ref={containerRef}
         id='image-map-pro'
         className='w-full !h-full !min-h-[353px] lg:min-h-[652px] overflow-hidden'
+      />
+
+      {/* ✅ Load script once with Next.js */}
+      <Script
+        src='/script/image-map-pro.min.js'
+        strategy='afterInteractive'
+        onLoad={initializeMap}
       />
     </div>
   );

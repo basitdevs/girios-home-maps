@@ -40,12 +40,14 @@ export default function Logos() {
         {brands.map((brand, index) => (
           <div
             key={index}
-            className={`grayscale opacity-[0.7] hover:grayscale-0 hover:opacity-100 transition duration-300`}>
+            className={`grayscale opacity-[0.7] hover:grayscale-0 hover:opacity-100 transition duration-300`}
+          >
             <Image
               alt={brand.alt}
               src={brand.src}
               width={brand.width}
               height={brand.height}
+              loading='lazy'
               className='object-contain'
             />
           </div>

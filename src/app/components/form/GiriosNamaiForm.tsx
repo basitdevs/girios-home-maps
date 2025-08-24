@@ -39,7 +39,7 @@ const InputField: React.FC<InputFieldProps> = ({
       className='absolute left-2 bottom-3 text-[17px] text-white transition-all 
       peer-placeholder-shown:bottom-3 peer-placeholder-shown:text-lg 
       peer-focus:bottom-11 peer-focus:text-sm peer-valid:bottom-11 peer-valid:text-sm 
-      font-semibold tracking-[-0.289px]'>
+      font-normal tracking-[-0.289px]'>
       {label}
     </label>
   </div>
@@ -165,7 +165,7 @@ export default function GiriosNamaiForm() {
                     />
                   </div>
 
-                  <span className='text-white text-[17px] font-medium'>
+                  <span className='text-white text-[17px] font-normal'>
                     Susipažinau su <span className='underline'>Privatumo politika</span> *
                   </span>
                 </label>

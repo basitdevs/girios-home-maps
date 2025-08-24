@@ -28,7 +28,7 @@ const faqItems = [
 
 export default function FunkcionalumasIr() {
   return (
-    <div id="project-plan">
+    <div id='project-plan'>
       <section className='mt-[34.67px] md:mt-[80.61px]'>
         <div className='wrapper lg:px-[60px] px-[15px]'>
           <div className='flex flex-col lg:flex-row xl:gap-[118.52px] gap-[50px] justify-between relative'>
@@ -39,6 +39,7 @@ export default function FunkcionalumasIr() {
                 alt='Logo'
                 height={611.12}
                 width={523.15}
+                loading='lazy'
                 className='w-full h-auto xl:min-w-[576px] object-contain lg:max-w-[576px] aspect-[611/525]'
               />
             </div>
@@ -50,6 +51,7 @@ export default function FunkcionalumasIr() {
                 alt='Logo'
                 height={311.573}
                 width={500}
+                loading='lazy'
                 className='w-full h-full md:min-w-[342px] aspect-[342/311.573]'
               />
             </div>

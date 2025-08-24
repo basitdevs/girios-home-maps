@@ -20,16 +20,13 @@ export const metadata = {
 
 export default function layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={`${urbanist.variable}`}>
         <Navbar />
-        <main className="">{children}</main>
+        <main className=''>{children}</main>
         <Footer />
 
-        <Script
-          src="/script/image-map-pro.min.js"
-          strategy="afterInteractive"
-        />
+        <Script src='/script/image-map-pro.min.js' strategy='afterInteractive' />
       </body>
     </html>
   );

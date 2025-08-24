@@ -6,17 +6,18 @@ const MobileSection = () => {
       {/* First Image */}
       <div className='w-full '>
         <Image
-          src='/images/house.png'
+          src='/images/giriosnamai_livingroom1.jpg'
           alt='House'
           width={380.257}
           height={267.095}
+          loading='lazy'
           className='flex-shrink-0 object-cover w-full'
         />
       </div>
 
       {/* First Text */}
       <p className='text-[#626262] text-[15px] font-semibold leading-[21px] tracking-[0.3px] mt-[17px] pl-[15px] max-w-[341.55px]'>
-        Jūsų namuose atsivers visų pojūčių gama, pro atvirus langus namus pasieks
+        Atraskite savo pojūčių gamą – leiskite gamtai Jūs įkvėpti.
       </p>
 
       {/* Second Section with Text + Image */}
@@ -30,10 +31,11 @@ const MobileSection = () => {
         {/* Image */}
         <div className='flex-shrink-0 ml-auto'>
           <Image
-            src='/images/house2.png'
+            src='/images/giriosnamai_livingroom2.webp'
             alt='House view'
             width={194.262}
             height={288.452}
+            loading='lazy'
             className='object-cover'
             style={{
               width: "194.262px",
