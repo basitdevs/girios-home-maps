@@ -1,27 +1,34 @@
 import Image from "next/image";
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
+
+type GalleryImage = {
+  src: string;
+  alt: string;
+};
+
+type GalleryProps = {
+  images: GalleryImage[];
+  setIsOpen: Dispatch<SetStateAction<boolean>>;
+  selectedImageIndex: number;
+  setSelectedImageIndex: Dispatch<SetStateAction<number>>;
+};
 
 const Gallery = ({
   images,
   setIsOpen,
   selectedImageIndex,
   setSelectedImageIndex,
-}: {
-  images: any[];
-  setIsOpen: any;
-  selectedImageIndex: number;
-  setSelectedImageIndex: any;
-}) => {
+}: GalleryProps) => {
   const closeGallery = () => {
     setIsOpen(false);
   };
 
   const goToNextSlide = () => {
-    setSelectedImageIndex((prevIndex: any) => (prevIndex + 1) % images.length);
+    setSelectedImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
   const goToPrevSlide = () => {
-    setSelectedImageIndex((prevIndex: any) => (prevIndex - 1 + images.length) % images.length);
+    setSelectedImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
   return (

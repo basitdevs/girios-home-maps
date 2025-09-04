@@ -16,16 +16,36 @@ export default function BannerSlider() {
 
   const slides = [
     {
-      src: "/images/Miegamasis_1.webp",
-      alt: "Individualių Namų Kvartalas",
+      src: "/images/new/new-banner1.jpeg",
+      alt: "Banner Images",
     },
     {
-      src: "images/home/house-dog-playing.jpeg",
-      alt: "Individualių Namų Kvartalas",
+      src: "/images/new/new-banner2.jpeg",
+      alt: "Banner Images",
     },
     {
-      src: "/images/Vonia_1.webp",
-      alt: "Individualių Namų Kvartalas",
+      src: "/images/new/new-banner3.jpeg",
+      alt: "Banner Images",
+    },
+    {
+      src: "/images/new/new-banner4.jpeg",
+      alt: "Banner Images",
+    },
+    {
+      src: "/images/new/new-banner5.jpeg",
+      alt: "Banner Images",
+    },
+    {
+      src: "/images/new/new-banner6.jpeg",
+      alt: "Banner Images",
+    },
+    {
+      src: "/images/new/new-banner7.jpeg",
+      alt: "Banner Images",
+    },
+    {
+      src: "/images/new/new-banner8.jpeg",
+      alt: "Banner Images",
     },
   ];
 

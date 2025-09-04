@@ -21,7 +21,7 @@ const faqItems = [
   {
     title: "KOKIA NAMO KAINA?",
     content: `Mūsų namų kaina priklauso nuo pasirinkto modelio, dydžio ir pritaikymo galimybių.
-    Kainos paprastai prasideda nuo 190 000 eurų. Norėdami gauti išsamesnę informaciją apie
+    Kainos paprastai prasideda nuo 209 000 eurų. Norėdami gauti išsamesnę informaciją apie
     kainas ir aptarti savo poreikius, susisiekite su mūsų pardavimų komanda.`,
   },
 ];

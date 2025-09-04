@@ -16,7 +16,7 @@ const bannerDetails = [
     label: "Kaina",
     value: (
       <>
-        nuo 2.200 Eur/m<sup>2</sup>
+        nuo 1700 Eur/m<sup>2</sup>
       </>
     ),
   },

@@ -24,7 +24,7 @@ const bannerDetails = [
     label: "Kaina",
     value: (
       <>
-        nuo 2.200 Eur/m<sup>2</sup>
+        nuo 1700 Eur/m<sup>2</sup>
       </>
     ),
   },
@@ -37,7 +37,7 @@ const slides = [
   { src: "/images/Miegamasis_1.webp", alt: "Individualių Namų Kvartalas" },
 ];
 
-export default function Slider() {
+export default function Slider({ houseTitle= "Unknown" }: { houseTitle: string }) {
   const swiperRef = useRef<SwiperRef>(null);
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
@@ -191,7 +191,7 @@ export default function Slider() {
             className='transition-all duration-300 hover:opacity-90  cursor-pointer w-full md:mt-0 mt-5 lg:w-[205.2px] h-[41.414px] rounded-[8px] bg-[#0051FF] flex items-center justify-center gap-[7px] text-quinary'
           >
             <span className='text-[14px] tracking-[1.4px] uppercase text-[#FAFAFA]'>
-              SUSISIEKTI Dėl <span className='font-bold'>A4</span>
+              SUSISIEKTI Dėl <span className='font-bold'>{houseTitle}</span>
             </span>
             <svg
               xmlns='http://www.w3.org/2000/svg'

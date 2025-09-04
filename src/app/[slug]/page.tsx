@@ -31,7 +31,7 @@ export default async function HomeDetailPage({ params }: { params: Params }) {
             Namas - <span className='capitalize'>{slug}</span>
           </h1>
         </div>
-        <Slider />
+        <Slider houseTitle={slug} />
         <Cards />
         <Logos />
         <HouseBanner />
