@@ -28,7 +28,7 @@ const bannerDetails = [
       </>
     ),
   },
-  { label: "kambariAI", value: "5" },
+  { label: "kambariAI", value: "4" },
 ];
 
 const slides = [

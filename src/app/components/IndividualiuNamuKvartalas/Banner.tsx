@@ -20,7 +20,7 @@ const bannerDetails = [
       </>
     ),
   },
-  { label: "kambariAI", value: "5" },
+  { label: "kambariAI", value: "4" },
 ];
 
 const Banner = () => {
@@ -35,7 +35,7 @@ const Banner = () => {
           <h3 className='text-[#C5C5C5] font-urbanist text-[13px] leading-[18px] md:text-[16px] font-[500] tracking-[0.2px] flex items-center gap-[5px] md:gap-[10px]'>
             Laisvu namų skaičius:{" "}
             <span className='size-[19px] md:size-[25px] text-[15px] md:text-[20px] leading-[17px] font-bold flex items-center justify-center bg-white text-black  rounded-full'>
-              <span className='translate-y-[-0.5px]'>6</span>
+              <span className='translate-y-[-0.5px]'>5</span>
             </span>
           </h3>
           <div className='hidden md:flex items-center gap-[10px]'>

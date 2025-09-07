@@ -35,7 +35,7 @@ export default function FunkcionalumasIr() {
             {/* Left image */}
             <div className='hidden md:block self-start sticky top-[100px]'>
               <Image
-                src='/images/home/homepage-home-pattern01.png'
+                src='/images/home/homepage-home.webp'
                 alt='Logo'
                 height={611.12}
                 width={523.15}
@@ -47,7 +47,7 @@ export default function FunkcionalumasIr() {
             {/* Mobile image */}
             <div className='block md:hidden'>
               <Image
-                src='/images/home/homepage-home-pattern01.png'
+                src='/images/home/homepage-home.webp'
                 alt='Logo'
                 height={311.573}
                 width={500}
